@@ -1,0 +1,19 @@
+version: 2.1
+
+jobs:
+  install:
+    steps:
+      - checkout
+      - run: make install
+
+  test:
+    steps:
+      - run: make test
+
+  build:
+    steps:
+      - run: make build
+
+  deploy:
+    steps:
+      - run: make deploy
