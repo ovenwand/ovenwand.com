@@ -8,7 +8,8 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack",
-    "analyze": "yarn build --profile --analyze"
+    "analyze": "yarn build --profile --analyze",
+    "now-build": "yarn build"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
