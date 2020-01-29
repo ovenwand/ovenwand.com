@@ -1,4 +1,5 @@
 ---
+private: true
 title: Ovenwand.com
 slug: ovenwand-com
 author: Sibbe Heijne
